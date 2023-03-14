@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/login-and-registration/image/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/login-and-registration/style.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Login-status-message -->
+    <div class="signIn-message-status">
+      <img src="/login-and-registration/image/1647279.png" alt="image" class="signIn-tick-image">
+      <span class="signIn-success-span">Awesome!</span>
+      <span class="signIn-successfully-span">Account login successfully</span>
+      <button class="signIn-ok-button">OK</button>
+    </div>
+
+    <!-- Login and registerPage created -->
+    <div class="cont">
+      <div class="form sign-in">
+        <h2>Sign In</h2>
+        <label>
+          <span>Email Address</span>
+          <input type="email" name="email" class="signIn-name" />
+          <small class="signIn-email-status">welecome</small>
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password" class="signIn-Pass"/>
+          <small class="signIn-pass-status">welecome</small>
+        </label>
+        <button class="submit" id="signIn" type="button">Sign In</button>
+        <p class="forgot-pass">Forgot Password ?</p>
+
+        <div class="social-media">
+          <ul>
+            <li><img src="/login-and-registration/image/facebook.png" /></li>
+            <li><img src="/login-and-registration/image/instagram.png" /></li>
+            <li><img src="/login-and-registration/image/linkedin.png" /></li>
+            <li><img src="/login-and-registration/image/twitter.png" /></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sub-cont">
+        <div class="img">
+          <div class="img-text m-up">
+            <h2>New here?</h2>
+            <p>Sign up and discover great amount of new opportunities!</p>
+          </div>
+          <div class="img-text m-in">
+            <h2>One of us?</h2>
+            <p>
+              If you already has an account, just sign in. We've missed you!
+            </p>
+          </div>
+          <div class="img-btn">
+            <span class="m-up">Sign Up</span>
+            <span class="m-in">Sign In</span>
+          </div>
+        </div>
+        <div class="form sign-up">
+          <h2 class="signUp">Sign Up</h2>
+          <label>
+            <span class="nameSpan">Name</span>
+            <input type="text" class="nameIn" />
+          </label>
+          <label>
+            <span class="emailSpan">Email</span>
+            <input type="email" class="emailIn" />
+            <small class="small">welecome</small>
+          </label>
+          <label>
+            <span class="passwordSpan">Password</span>
+            <input type="password" class="passwordIn" />
+            <small class="small">welecome</small>
+          </label>
+          <label>
+            <span class="conformpasswordSpan">Confirm Password</span>
+            <input type="text" class="conformPasswordIn" />
+            <small class="small">welecome</small>
+          </label>
+          <label>
+            <span class="mobileSpan">Moblie</span>
+            <input type="text" class="MoblieIn" />
+            <small class="small">welecome</small>
+          </label>
+          <button type="button" class="submit" id="signUp">Sign Up Now</button>
+          <small class="login-status small">welecome</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Successfull message -->
+    <div class="status-message-div">
+      <div class="message1-div">
+        <img
+          src="/login-and-registration/image/1647279.png"
+          alt="image"
+          class="tick-image"
+        />
+        <span class="success-message">SUCCESS</span>
+      </div>
+      <div class="message2-div">
+        <p class="successfully-message-pera">
+          Congratulations, your account <br>
+           has been successfully created
+        </p>
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="/login-and-registration/script.js"
+    ></script>
+  </body>
+</html>
